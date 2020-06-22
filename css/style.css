@@ -1,0 +1,836 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	max-width: 1580px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.h2-style {
+	font-size: 42px;
+	line-height: 55px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+/*Заголовок.........................*/
+.background1-style {
+	max-width: 1580px;
+	min-height: 690px;
+	margin: 0 auto;
+	background-color: rgb(242, 242, 242);
+}
+
+.block-menu-style {
+	position: relative;
+	display: flex;
+	max-width: 1250px; 
+	min-height: 88px;
+	top: 32px;
+	margin: 0 auto 121px;
+	justify-content: center;
+	align-items: stretch;
+	background-color: rgb(49, 48, 48);
+}
+
+.menu-style {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	align-items: stretch;
+}
+
+.menu-style li {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.menu-style a {
+	position: relative;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 20px;
+	padding: 30px 10px;
+	color: white;
+}
+
+.menu-style a:hover {
+	background-color: rgb(255, 63, 64);
+}
+/*Уровень 1........................*/
+.level1 {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	max-width: 1250px;
+	margin: 0 auto;
+	top: 6px;
+}
+
+.level1 > a {
+	position: relative;
+	margin: 10px 0 0;
+}
+
+.lev1-left-col {
+	position: relative;
+	width: 50%;
+	margin: 0 75px 0 0;
+}
+
+.lev1-left-col > h1 {
+	font-weight: 800;
+	font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 17px;
+	text-transform: uppercase;
+	line-height: 120%;
+	letter-spacing: 1.5px;	
+}
+
+.organ-style {
+	word-wrap: anywhere;
+}
+
+.lev1-left-col > p {
+	margin: 0 0 67px;
+}
+
+.lev1-contact {
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin: 0;
+	padding: 15px 67px;
+	color: white;
+	background-color: rgb(255, 45, 45);
+}
+
+.photo-style {
+	position: relative;
+	width: 550px;
+	height: 355px;
+	box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
+	margin: 0;
+}
+
+@media screen and (max-width: 1240px) {
+	.lev1-left-col {
+		width: 100%;
+		height: auto;
+		margin-right: 5vw;}
+	.lev1-left-col h1 {
+		font-size: 5vw;
+		line-height: 120%;}
+	.photo-style {
+		width: 100%;
+		height: auto;}
+}
+
+@media screen and (max-width: 750px) {
+	.level1 {
+		flex-wrap: wrap;}
+	.lev1-left-col {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		margin-right: 5vw;}
+	.photo-style {
+		width: 100%;
+		height: auto;
+		margin-top: 3vw;}
+}
+
+/*Уровень 2.....................*/
+
+.level2 {
+	position: relative;
+	max-width: 1250px;
+	margin: 96px auto 0;
+	min-height: 591px;
+}
+
+.lev2-left-col {
+	position: relative;
+	max-width: 50%;
+	margin: 0 10px 0 0;
+}
+
+.lev2-h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.lev2-left-col {
+	position: relative;
+	max-width: 50%;
+	margin: 0 10px 0 0;
+}
+
+.lev2-left-col > p {
+	margin-top: 32px;
+	margin-bottom: 94px;
+}
+
+.lev2-contact {
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 13px 61px;
+	border: 2px solid red;
+	border-radius: 5px;
+	color: red;
+}
+
+.lev2-right-col {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 50%;
+}
+
+.right-block {
+	position: relative;
+	max-width: 47%;
+	margin: 0 0 34px 14px;
+}
+
+.right-block > h4 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 21px 0 13px;
+}
+
+.right-block > p {
+	margin: 0;
+}
+
+.right-block > img {
+	margin: 5px 0 0;
+}
+
+.hr1-line {
+	margin: 5px auto;
+	padding: 0;
+	max-width: 1250px;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+	opacity: 0.2;
+}
+
+@media screen and (max-width: 980px) {
+	.h2-style {
+		font-size: 4vw;
+		line-height: 120%;}
+	.right-block {
+		max-width: 97%;}
+}
+
+@media screen and (max-width: 750px) {
+	.lev2-left-col {
+		max-width: 100%;
+		margin-bottom: 5vw;}
+	.lev2-left-col > p{
+		margin-bottom: 5vw;}
+	.lev2-right-col {
+		max-width: 100%;}
+	.right-block {
+		max-width: 97%;}
+	
+}
+
+/*Уровень 3.......................*/
+
+.level3 {
+	margin: 94px auto 0;
+	min-height: 591px;
+	max-width: 1250px;
+}
+
+.lev3-head {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lev3-h2 {
+	margin: 0 auto 20px;
+}
+
+.lev3-head > p {
+	position: relative;
+	max-width: 537px;
+	margin: 0 auto;
+}
+
+.hr2-line {
+	margin: 24px auto;
+	padding: 0;
+	height: 0;
+	width: 134px;
+	border: none;
+	border-top: 3px solid #ff2d2d;
+}
+
+.lev3-list {
+	position: relative;
+	display: flex;
+	margin: 57px auto 0;
+}
+
+.lev3-list > li {
+	display: flex;
+	justify-content: center;
+	margin: 0 14px;
+}
+
+.lev3-list span {
+	color: red;
+}
+
+.lev3-list a {
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 10px;
+	color: black;
+}
+
+.lev3-list a:hover {
+	color: red;
+}
+
+.lev3-table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 60px auto 0;
+}
+
+.lev3-table > img {
+	width: 296px;
+	height: 290px;
+	margin-bottom: 19px;
+}
+
+@media screen and (max-width: 1240px) {
+	.lev3-list {
+		margin: 5vw 0 0 -10vw;}
+	.lev3-list a {
+		font-size: 2vw;
+		line-height: 120%;
+		margin: 0 5px;}
+	.lev3-table {
+		justify-content: flex-start;
+		margin: 5vw 0;}
+	.lev3-table > img {
+		width: 30%;
+		margin: 1vw 1vw;}
+}
+
+@media screen and (max-width: 900px) {
+	.lev3-list a {
+		margin: 0 3px;}
+	.lev3-table {
+		margin: 1vw 1vw;}
+	.lev3-table > img {
+		width: 48%;
+		height: auto;
+		margin: 2px 2px;}
+}
+
+@media screen and (max-width: 750px) {
+	.lev3-list a {
+		font-size: 12px;
+		margin: 0 2px;}
+	.lev3-table > img {
+		width: 98%;
+		height: auto;
+		margin: 2px 2px;}
+}
+/*Уровень 4.......................*/
+
+.level4 {
+	position: relative;
+	box-sizing: border-box;
+	margin: 109px auto 0;
+	min-height: 591px;
+	max-width: 1250px;
+}
+
+.lev4-style {
+	margin: 23px auto;
+}
+
+.lev4-head > p {
+	max-width: 480px;
+}
+
+.lev4-head > hr {
+	margin-left: 0;
+	margin-top: 29px;
+}
+
+.lev4-body {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	min-height: 500px;
+	top: 5px;
+}
+
+.lev4-img {
+	position: relative;
+	box-sizing: border-box;
+	width: 320px;
+	height: 460px;
+	margin: 0;
+}
+
+.lev4-right {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 68%;
+	height: inherit;
+}
+
+.lev4-r-main {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	max-height: 50%;
+	margin-bottom: 62px;
+	justify-content: flex-end;
+}
+
+.lev4-r-main > h3 {
+	position: relative;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 25px 0 0;
+	top: 10px;
+}
+
+.lev4-r-main > p {
+	position: relative;
+	margin: 37px 0 0;
+}
+
+.lev4-r-main > ul {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	margin: 33px 0 0;
+	padding: 0;
+	font-style: italic;
+	list-style: none;
+}
+
+.lev4-r-main li {
+	margin: 0 45px 0 0;
+}
+
+.lev4-r-main a {
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+
+.lev4-r-main a:hover {
+	text-decoration: underline; 
+}
+
+.lev4-r-img {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	max-height: 50%;
+	
+}
+
+.member-name {
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	margin: 0;
+}
+
+.member-name > img {
+	box-sizing: content-box;
+	width: 200px;
+	height: 215px;
+	margin: 0;
+	padding: 0;
+}
+
+.member-name > h3 {
+	visibility: hidden;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	width: 100%;
+	height: 37px;
+	text-align: center;
+	background-color: #000;
+	text-transform: uppercase;
+}
+
+.member-name:hover > h3 {
+	visibility: visible;
+}
+
+@media screen and (max-width: 1240px) {
+	.lev4-r-main > ul {
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		margin: 33px 0 0;
+		padding: 0;
+		list-style: none;}
+	.lev4-r-main li {
+		margin: 0 4% 0 0;}
+	.lev4-body {
+		flex-direction: column;
+		align-items: flex-start;}
+	.lev4-right {
+		width: 100%;}
+	.member-name {
+		width: 24%;}
+	.member-name > img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 5px;}
+	.member-name > h3 {
+		width: 100%;}	
+}
+
+@media screen and (max-width: 750px) {
+	.member-name {
+		width: 31%;}
+}
+
+@media screen and (max-width: 550px) {
+	.member-name {
+		width: 48%;}
+}
+
+/*-- Форма подписки --*/
+
+.subs {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	padding-top: 100px;
+	max-width: 1580px;
+	min-height: 411px;
+	top: 114px;
+	margin: 0 auto;
+	background-color: rgb(229,229, 229);
+}
+
+.subs-head {
+	/*position: relative;*/
+	font-size: 42px;
+	font-weight: bold;
+	margin: 40px auto 0;
+	color: white;
+}
+
+.subs-p {
+	position: relative;
+	margin: 40px auto 0;
+	color: white;
+}
+
+.subs-form {
+	margin: 57px auto 0;
+	position: relative;
+}
+
+.subs-field {
+	width: 513px;
+	height: 72px;
+	font-family: "Open Sans";
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.subs-mail {
+	width: 218px;
+	height: 79px;
+	border-radius: 7px;
+	margin-left: 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(255, 45, 45);
+}
+
+.subs-mail:hover {
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 1240px) {
+	.subs-head {
+		font-size: 3vw;}
+	.subs-mail {
+		margin-left: 0;}
+}
+
+@media screen and (max-width: 600px) {
+	.subs-head {
+		font-size: 18px;}
+	.subs-field {
+	width: 85vw;}
+}
+/*Уровень 5...........................*/
+
+.lev5-head {
+	position: relative;
+	max-width: 1414px;
+	top: 174px;
+	left: 165px;
+}
+
+.lev5-head > p {
+	max-width: 730px;
+}
+
+.hr5-line {
+	margin: 49px 0 0;
+	padding: 0;
+	height: 0;
+	width: 134px;
+	border: none;
+	border-top: 2px solid #ff2d2d;
+}
+
+.lev5-table {
+	position: relative;
+	max-width: 1415px;
+	display: flex;
+	justify-content: space-between;
+	top: 250px;
+	left: 165px;
+}
+
+.lev5-left-col {
+	position: relative;
+	max-width: 730px;
+	
+}
+
+.lev5-left-col fieldset {
+	border: none;
+	padding: 0;
+}
+
+.lev5-left-col input, textarea {
+	font-family: "Open Sans";
+	font-size: 17px;
+	background-color: rgb(229, 229, 229);
+}
+
+.form-top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.top-fields {
+	position: relative;
+	width: 340px;
+	min-height: 70px;
+	border: none;
+	border-radius: 7px;
+	margin: 0;
+}
+
+.form-medium {
+	width: 730px;
+	min-height: 250px;
+	border: none;
+	border-radius: 7px;
+	margin-top: 45px;
+}
+
+.form-medium textarea[placeholder] {
+	white-space: pre;
+}
+
+.form-button {
+	width: 730px;
+	min-height: 70px;
+	margin-left: 3px;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 7px;
+	margin-top: 38px;
+	background-color: rgb(255, 59, 59);
+}
+
+.form-button:hover {
+	cursor: pointer;
+}
+
+.lev5-right-col {
+	position: relative;
+	width: 575px;
+	height: 480px;
+	color: white;
+	background-color: rgb(45, 45, 45);
+}
+
+.lev5-r-info {
+	position: relative;
+	margin: 137px 0 0 82px;
+}
+
+.lev5-r-info > h4 {
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.lev5-r-info > p {
+	color: white;
+}
+
+@media screen and (max-width: 1580px) {
+	.lev5-table {
+		max-width: 89%;
+		flex-direction: column;
+		justify-content: flex-start;}
+	.lev5-right-col {
+		margin-top: 10px;}
+}
+
+@media screen and (max-width: 940px) {
+	.lev5-head {
+		left: 0;}
+	.lev5-table {
+		left: 0;}
+	.top-fields {
+		margin-bottom: 10px;}
+	.form-medium {
+		max-width: 90vw;
+		min-height: 250px;}
+	.form-button {
+		max-width: 90vw}
+	.lev5-right-col {
+		max-width: 90vw;
+		max-height: 76vw;}
+	.lev5-r-info {
+		margin: 15vw 0 0 9vw;}
+}
+
+@media screen and (max-width: 470px) {
+	.form-medium {
+		max-width: 85vw;
+		min-height: 250px;}
+	.form-button {
+		max-width: 85vw}
+	.lev5-right-col {
+		max-width: 85vw;
+		max-height: 72vw;}
+}
+
+/*Подвал..........................*/
+
+.footer-style {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1580px;
+	min-height: 110px;
+	margin: 0 auto;
+	margin-top: 361px;
+	background-color: rgb(49, 48, 48);
+}
+
+.footer-style  p {
+	position: relative;
+	margin: 0;
+	margin-left: 169px;
+	margin-top: 15px;
+	color: white;
+}
+
+.social ul {
+	display: inline-block;
+	margin: 0;
+	margin-right: 155px;
+	margin-top: 25px;
+}
+
+.social li {
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.social img {
+	width: 35px;
+	height: 35px;
+}
+
+@media screen and (max-width: 970px) {
+	.footer-style  p {
+		margin-left: 5vw;}
+	.social ul {
+		margin-right: 5vw;}
+}
